@@ -1,2 +1,3 @@
 # CinemaSeatBooking
-Cinema Seat Booking Windows Application for OVO Cinema  
+University Final Project
+Cinema Seat Booking Windows Application 
