@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8F5028FF-A48A-4AE8-AF7F-C7352201CFE3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp2</RootNamespace>
+    <AssemblyName>WindowsFormsApp2</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin_AddCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_AddCustomer.Designer.cs">
+      <DependentUpon>Admin_AddCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_AddMovies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_AddMovies.Designer.cs">
+      <DependentUpon>Admin_AddMovies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_AddStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_AddStaff.Designer.cs">
+      <DependentUpon>Admin_AddStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_AddUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_AddUsers.Designer.cs">
+      <DependentUpon>Admin_AddUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Dashboard.Designer.cs">
+      <DependentUpon>Admin_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_UpdateCustomers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_UpdateCustomers.Designer.cs">
+      <DependentUpon>Admin_UpdateCustomers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_UpdateStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_UpdateStaff.Designer.cs">
+      <DependentUpon>Admin_UpdateStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_UpdateUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_UpdateUsers.Designer.cs">
+      <DependentUpon>Admin_UpdateUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_ViewUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_ViewUsers.Designer.cs">
+      <DependentUpon>Admin_ViewUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cashier_AddProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cashier_AddProducts.Designer.cs">
+      <DependentUpon>Cashier_AddProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cashier_Customer Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cashier_Customer Settings.Designer.cs">
+      <DependentUpon>Cashier_Customer Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cashier_Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cashier_Dashboard.Designer.cs">
+      <DependentUpon>Cashier_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cashier_Set_Currently_Showing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cashier_Set_Currently_Showing.Designer.cs">
+      <DependentUpon>Cashier_Set_Currently_Showing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cashier_ViewBills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cashier_ViewBills.Designer.cs">
+      <DependentUpon>Cashier_ViewBills.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_Home.Designer.cs">
+      <DependentUpon>Customer_Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_Login.Designer.cs">
+      <DependentUpon>Customer_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_Register.Designer.cs">
+      <DependentUpon>Customer_Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_View_Products.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_View_Products.Designer.cs">
+      <DependentUpon>Customer_View_Products.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_View_Upcomig_Movies_Trailers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_View_Upcomig_Movies_Trailers.Designer.cs">
+      <DependentUpon>Customer_View_Upcomig_Movies_Trailers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBconnection.cs" />
+    <Compile Include="DiscountTicket.cs" />
+    <Compile Include="FlatButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gosta.cs" />
+    <Compile Include="Home_Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home_Dashboard.Designer.cs">
+      <DependentUpon>Home_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="log.cs" />
+    <Compile Include="OVO_Startup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OVO_Startup.Designer.cs">
+      <DependentUpon>OVO_Startup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Seat.cs" />
+    <Compile Include="Staff_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff_Login.Designer.cs">
+      <DependentUpon>Staff_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ticket.cs" />
+    <EmbeddedResource Include="Admin_AddCustomer.resx">
+      <DependentUpon>Admin_AddCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_AddMovies.resx">
+      <DependentUpon>Admin_AddMovies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_AddStaff.resx">
+      <DependentUpon>Admin_AddStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_AddUsers.resx">
+      <DependentUpon>Admin_AddUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Dashboard.resx">
+      <DependentUpon>Admin_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_UpdateCustomers.resx">
+      <DependentUpon>Admin_UpdateCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_UpdateStaff.resx">
+      <DependentUpon>Admin_UpdateStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_UpdateUsers.resx">
+      <DependentUpon>Admin_UpdateUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_ViewUsers.resx">
+      <DependentUpon>Admin_ViewUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cashier_AddProducts.resx">
+      <DependentUpon>Cashier_AddProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cashier_Customer Settings.resx">
+      <DependentUpon>Cashier_Customer Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cashier_Dashboard.resx">
+      <DependentUpon>Cashier_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cashier_Set_Currently_Showing.resx">
+      <DependentUpon>Cashier_Set_Currently_Showing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cashier_ViewBills.resx">
+      <DependentUpon>Cashier_ViewBills.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_Home.resx">
+      <DependentUpon>Customer_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_Login.resx">
+      <DependentUpon>Customer_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_Register.resx">
+      <DependentUpon>Customer_Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_View_Products.resx">
+      <DependentUpon>Customer_View_Products.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_View_Upcomig_Movies_Trailers.resx">
+      <DependentUpon>Customer_View_Upcomig_Movies_Trailers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home_Dashboard.resx">
+      <DependentUpon>Home_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OVO_Startup.resx">
+      <DependentUpon>OVO_Startup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Staff_Login.resx">
+      <DependentUpon>Staff_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\System Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1291107.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloud.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rain_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\puddle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\173725.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AdminBackground2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CashierBackground2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MV.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1MV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mov333.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mov4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mov11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Movx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mov000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\This is End.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ViewMenu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no-vaping.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4564_js41.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step1x.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step2x.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step3x.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step3xx.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step4x.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step5x.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step6x.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step7x.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step8x.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step9x.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xx.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
