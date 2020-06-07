@@ -78,7 +78,7 @@ SOFTWARE.
 
 ## Author Info
 
-- Twitter - [@MishalAreef](https://twitter.com/jamesqquick)
+- Twitter - [@MishalAreef1](https://twitter.com/MishalAreef1)
 
 [Back To The Top](#read-me-template)
 
