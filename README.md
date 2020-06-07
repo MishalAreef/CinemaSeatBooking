@@ -1,6 +1,6 @@
 # Read Me Template
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/CCIMainForm.jpg?raw=true)
+![alt text](https://github.com/[MishalAreef]/[CinemaSeatBooking]/Images/[branch]/CCIMainForm.jpg?raw=true)
 
 
 > This is a ReadMe template to help save you time and effort.
