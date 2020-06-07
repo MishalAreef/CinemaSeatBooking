@@ -15,9 +15,25 @@ This is an Self-Service Cinema Booking System for Windows, which was made as a f
 - C#
 - SQL Server 2014
 
-[Back To The Top](#read-me-template)
+#### Features
 
----
+# Admin
+- Add Movie Details
+- Add Trailers
+- Add a Staff ( Cashier / Admin )
+- Update Staff
+
+# Cashier
+- Add Items in Menu
+- Restrictions to Customers / Settings
+- Add Rules and Regulations
+- Add Advertisements
+
+# Customers 
+- Login / Register
+- Book a movie
+- View Trailers
+- View Upcoming Movies
 
 ## How To Use
 
