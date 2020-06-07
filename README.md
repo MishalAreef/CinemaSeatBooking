@@ -1,7 +1,6 @@
 # Read Me Template
 
-![GitHub Logo](/Images/CCIMainForm.jpg)
-Format: ![Alt Text](url)
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/CCIMainForm.jpg?raw=true)
 
 
 > This is a ReadMe template to help save you time and effort.
