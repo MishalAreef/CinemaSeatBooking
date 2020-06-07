@@ -1,6 +1,5 @@
 # OVO Cinema Booking System
-
-![alt text](https://github.com/[MishalAreef]/[CinemaSeatBooking]/Images/[Images]/CCIMainForm.jpg?raw=true)
+![](Images/filename%20CCImainForm.JPG)
 
 
 > This is a ReadMe template to help save you time and effort.
