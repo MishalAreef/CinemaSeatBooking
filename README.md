@@ -1,6 +1,6 @@
 # Read Me Template
 
-![](Images/CCIMainForm.jpg)
+![](Images/filename%20CCIMainForm.jpg)
 
 > This is a ReadMe template to help save you time and effort.
 
