@@ -76,10 +76,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## Developer Info
+## Contact Info
 
 - Twitter - [@MishalAreef1](https://twitter.com/MishalAreef1)
 - Facebook - [MishalAreef](https://www.facebook.com/AlexiMish)
---
+- Instagram - [@MishalAreef](https://www.instagram.com/mishal.areef)
+- Email - (mishalareef@gmail.com)
 
 
