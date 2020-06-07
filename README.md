@@ -1,5 +1,5 @@
 # OVO Cinema Booking System
-![](Images/filename%20CCImainForm.JPG)
+![](Images/filenameCCImainForm.JPG)
 
 
 > This is a ReadMe template to help save you time and effort.
