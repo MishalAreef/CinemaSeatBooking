@@ -1,6 +1,6 @@
 # Read Me Template
 
-![GitHub Logo](/images/CCIMainForm.JPG)
+![GitHub Logo](/Images/CCIMainForm.jpg)
 Format: ![Alt Text](url)
 
 
