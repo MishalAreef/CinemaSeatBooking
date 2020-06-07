@@ -1,6 +1,6 @@
 # OVO Cinema Booking System
 
-
+![Cinema](https://user-images.githubusercontent.com/53239920/83960759-0c7d9c80-a8bf-11ea-9a74-290a2e6e8dab.jpg)
 
 
 ---
