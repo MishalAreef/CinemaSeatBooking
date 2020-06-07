@@ -76,9 +76,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## Author Info
+## Developer Info
 
 - Twitter - [@MishalAreef1](https://twitter.com/MishalAreef1)
-
+- Facebook - [MishalAreef](https://www.facebook.com/AlexiMish)
 [Back To The Top](#read-me-template)
 
