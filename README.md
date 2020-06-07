@@ -2,29 +2,18 @@
 ![CCImainForm](https://user-images.githubusercontent.com/53239920/83960268-7d21ba80-a8b9-11ea-9c08-df4968ec2542.JPG)
 
 
-> This is a ReadMe template to help save you time and effort.
 
 ---
 
-### Table of Contents
-You're sections headers will be used to reference location of destination.
-
-- [Description](#description)
-- [How To Use](#how-to-use)
-- [References](#references)
-- [License](#license)
-- [Author Info](#author-info)
-
----
 
 ## Description
 
-Creating ReadMe's for your Github repository can be tedious.  I hope this template can save you time and effort as well as provide you with some consistency across your projects.
+This is an Self-Service Cinema Booking System for Windows, which was made as a final project for a university. 
 
 #### Technologies
 
-- Technology 1
-- Technology 2
+- C#
+- SQL Server 2014
 
 [Back To The Top](#read-me-template)
 
@@ -33,22 +22,10 @@ Creating ReadMe's for your Github repository can be tedious.  I hope this templa
 ## How To Use
 
 #### Installation
+    - Create a Database called Big Error in SQL Server
+    - Import the Database
+    - To Create an Admin Check the default admin password in Staff Table and Login First
 
-
-
-#### API Reference
-
-```html
-    <p>dummy code</p>
-```
-[Back To The Top](#read-me-template)
-
----
-
-## References
-[Back To The Top](#read-me-template)
-
----
 
 ## License
 
